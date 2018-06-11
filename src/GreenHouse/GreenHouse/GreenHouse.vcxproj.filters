@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="chart">
+      <UniqueIdentifier>{e353a6ae-a5ec-4a69-a7f7-1d55f9a47554}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\GreenHouse.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GreenHouse.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="chart\ChartBalloonLabel.inl">
+      <Filter>chart</Filter>
+    </None>
+    <None Include="chart\ChartLabel.inl">
+      <Filter>chart</Filter>
+    </None>
+    <None Include="chart\ChartPointsArray.inl">
+      <Filter>chart</Filter>
+    </None>
+    <None Include="chart\ChartSerieBase.inl">
+      <Filter>chart</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GreenHouse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenHouseDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MySerial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLCtl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HisForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartAxis.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartAxisLabel.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartBalloonLabel.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartBarSerie.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartCandlestickSerie.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartCrossHairCursor.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartCtrl.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartCursor.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartDateTimeAxis.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartDragLineCursor.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartFont.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartGanttSerie.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartGradient.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartGrid.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartLabel.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartLegend.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartLineSerie.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartLogarithmicAxis.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartMouseListener.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartPointsArray.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartPointsSerie.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartScrollBar.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartSerie.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartSerieBase.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartSeriesMouseListener.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartStandardAxis.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartString.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartSurfaceSerie.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartTitle.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\ChartXYSerie.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="chart\PointsOrdering.h">
+      <Filter>chart</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCursorListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Winddlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoParamSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GreenHouse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenHouseDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MySerial.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLCtl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HisForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartAxis.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartAxisLabel.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartBarSerie.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartCandlestickSerie.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartCrossHairCursor.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartCtrl.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartCursor.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartDateTimeAxis.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartDragLineCursor.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartFont.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartGanttSerie.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartGradient.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartGrid.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartLegend.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartLineSerie.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartLogarithmicAxis.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartPointsSerie.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartScrollBar.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartSerie.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartStandardAxis.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartSurfaceSerie.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartTitle.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="chart\ChartXYSerie.cpp">
+      <Filter>chart</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCursorListener.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Winddlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoParamSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GreenHouse.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
